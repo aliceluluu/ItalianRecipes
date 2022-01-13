@@ -1,0 +1,164 @@
+/*
+Alice Agnoletto
+CSS page for Recipe Website
+*/
+/* 
+    Created on : Oct 15, 2021, 8:38:52 AM
+    Author     : aliceagnoletto
+*/
+
+body 
+{
+    background-color: white;
+    font-family: "Sans serif", Trebuchet MS, monospace;
+    margin: 0 auto;
+}
+h1
+{
+    width: 85%;
+    background-color: #ffc182;
+    text-align: center;
+    color: white;
+    font-family: "Sans serif", New Century Schoolbook, TeX Gyre Schola;
+    font-size: 250%;
+    margin-left: auto;
+    margin-right: auto;
+    font: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+
+#navigation 
+{
+    width: 100%;
+    padding: 15px;
+    margin: 0px auto 0px auto; 
+    border-top: 3px solid #9a0f26; 
+    border-bottom: 3px solid #9a0f26; 
+    text-align: center;
+}
+
+
+#instructions
+{
+    color: grey;
+    font-family: "Sans serif", New Century Schoolbook, TeX Gyre Schola, monospace;
+    text-align: center
+}
+
+
+img
+{
+    max-width:100%;
+    max-height:100%
+}
+
+img.image1 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+table 
+{
+    width: 95%;
+    border-spacing: 5px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+tr
+{ 
+    border-spacing: 5em;
+}
+
+table tr:nth-child(odd) td
+{
+    background-color: #efffc7;;
+    height: 40%;
+    margin: 2%;
+    border-radius: 10px;
+    border-color: #efffc7;;
+    padding:15px;
+}
+
+table tr:nth-child(even) td
+{
+    background-color: #efffc7;
+    height: 40%;
+    margin: 2%;
+    border-radius: 10px;
+    border-color: #efffc7;
+    padding:15px;
+}
+
+table tr:hover td
+{
+    background-color: #b5cf74;
+    border-color: #b5cf74;
+}
+
+table 
+{ 
+    border-collapse: separate; 
+    border-spacing: 30px;
+    width: 50%;
+    height: 30%;
+    text-align: center;
+}
+td 
+{ 
+    /*border: solid 10px #000;*/
+    width: 400px;
+}
+
+
+
+td.imageColumn
+{
+    width: 20%;
+    word-wrap: break-word;
+    margin: 20%;
+    font-size:110%;
+    line-height: 170%;
+    inline-box-align: center;
+}
+
+/*td.textColumn
+{
+    word-wrap: break-word;
+    margin: 10%;
+    font-size:110%;
+    line-height: 170%;
+}
+td.infoColumn
+{
+    width: 20%;
+    line-height: 170%;
+}*/
+
+li.menu
+{
+    display: inline;
+}
+
+a:hover, a.on 
+{
+    color: #9a0f26; 
+}
+
+.menuItem
+{
+    color: #000000; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+    padding: 5%;
+}
+
+#titleDish
+{
+    margin: 2%;
+}

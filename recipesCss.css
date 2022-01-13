@@ -1,0 +1,140 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 22, 2021, 11:06:24 PM
+    Author     : aliceagnoletto
+*/
+
+body 
+{
+    width: 90%;
+    /*margin: 20px;*/
+}
+
+img
+{
+    max-width:100%;
+    max-height:100%
+}
+
+#content 
+{
+    overflow: auto;
+} 
+#nav, #feature, #footer 
+{
+    margin: 1%;
+}
+.column1
+{
+    width: 100%; 
+    display: block;
+}
+
+#nav
+{
+    background-color: #efefef;
+    padding: 0.5em 0;
+} 
+
+.feature 
+{
+    height: 90%;
+    margin-bottom: 1em; 
+}
+
+.image1
+{
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.article 
+{
+    height: 10em; 
+    margin-bottom: 1em; 
+    background-color: #efefef;
+}
+body 
+{
+    background-color: white;
+    font-family: "Sans serif", Trebuchet MS, monospace;
+    margin: 0 auto;
+}
+h1
+{
+    width: 85%;
+    background-color: #ffc182;
+    text-align: center;
+    color: white;
+    font-family: "Sans serif", New Century Schoolbook, TeX Gyre Schola;
+    font-size: 300%;
+    margin-left: auto;
+    margin-right: auto;
+    font: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+/*
+img.image1
+{
+    max-width:100%;
+    max-height:100%
+}*/
+
+#navigation 
+{
+    width: 100%;
+    padding: 15px;
+    margin: 0px auto 0px auto; 
+    border-top: 3px solid #9a0f26; 
+    border-bottom: 3px solid #9a0f26; 
+    text-align: center;
+}
+
+li.menu
+{
+    display: inline;
+}
+
+a:hover, a.on 
+{
+    color: #9a0f26; 
+}
+
+a
+{
+    color: #000000; 
+    text-transform: uppercase; 
+    text-decoration: none; 
+    padding: 5%;
+}
+
+#mail
+{
+    padding: 0;
+}
+
+div.column1
+{
+    line-height: 50px;
+}
+
+.title
+{
+    color:#9a0f26;
+}
+
+#aboutus
+{
+    text-align: left;
+    margin: auto;
+    color: #9a0f26;
+    font-size: 150%;
+    padding-top: 5%;
+    font-family: "Sans serif", New Century Schoolbook, TeX Gyre Schola, monospace;
+}
